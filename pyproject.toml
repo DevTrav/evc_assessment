@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "evc2"
+version = "0.1.0"
+description = "evc assessment environment"
+authors = ["Travers La Ville <traverslaville@gmail.com>"]
+license = "GNU General Public License GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
